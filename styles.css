@@ -1,0 +1,61 @@
+body {
+  position: relative;
+  background-color: whitesmoke;
+}
+h4{
+  text-align: center;
+}
+#map {
+  margin-right: auto;
+  margin-left: auto;
+  width:90%;
+  display: block;
+  height:650px;
+
+}
+
+#count{
+  visibility: hidden;
+}
+#form_search {
+  font-family: Monospace;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 124, 149);
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 700px;
+}
+.serachLabel {
+  font-family: Monospace;
+  color: black;
+  font-size: 16px;
+  margin-top: 7px;
+}
+.dateRange {
+  width: 240px;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+.searchBtn {
+  width: 70px;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #258375;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
